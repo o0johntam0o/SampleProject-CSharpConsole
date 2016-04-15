@@ -61,7 +61,7 @@ string Product::CorrectGenre(string str)
 	if (str == "2") return "Tinh Cam";
 	if (str == "3") return "Hai";
 	if (str == "Hinh Su" || str == "Tinh Cam" || str == "Hai") return str;
-	return str;
+	return "Hinh Su";
 }
 
 Product::Product(void)
